@@ -25,6 +25,20 @@ pip install openai
 pip install pyttsx3
 pip install SpeechRecognition
 ```
+## Using the OpenAI API
+
+To use the OpenAI API in this project, you'll need to set up your API key. Follow these steps:
+
+1. **Obtain Your OpenAI API Key:**
+
+   If you haven't already, you'll need to obtain an API key from OpenAI. You can sign up on the [OpenAI platform](https://platform.openai.com/account/api-keys) and create an API key. Once you have the key, make sure to keep it secure as it provides access to the OpenAI services.
+
+2. **Update Your Python Code with Your API Key:**
+
+   Open the Python file where you have the code for this project and locate the line that sets the API key. It should look like this:
+
+   ```python
+   api_key = "Your_api_key_here"
 
 ## Support
 For any issues or questions related to this project, please [open an issue](https://github.com/kksavad404/ai/issues).
